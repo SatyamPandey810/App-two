@@ -1,7 +1,9 @@
 import React from 'react';
 import '../style/card.css'
 
+
 const Header = () => {
+
     return (
         <div>
             <section class="wrapper">
@@ -15,7 +17,9 @@ const Header = () => {
                                         <p>50% Avg Salary Hike</p>
                                     </div>
                                     <h3 class="heading">
-                                        Inspiring stories of success from our <br/> learners!
+                                        <span class="auto-type">
+                                            Inspring stories of success from our learners
+                                        </span>
                                     </h3>
                                 </div>
                                 <div class="btn-wrap">
@@ -54,7 +58,6 @@ const Header = () => {
                 </div>
 
             </section >
-
 
 
 

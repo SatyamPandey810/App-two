@@ -7,23 +7,52 @@
 .tag {
     align-items: center !important;
 }
-.items{
-    padding-left: 30% !important;
+
+.bord:hover{
+border-bottom: 2px blue solid;
+cursor: pointer;
 
 }
-.dark-blue{
-    background-color:rgb(53, 53, 150);
-    width: 12rem !important;
-   
-    border-radius: 5px;
-    text-align: center;
-    
+
+@media screen and  (max-width:1000px){
+    .items{
+  padding-left: 25rem;
 }
-.btn-margin {
-    height: 4rem;
-    display: inline;
+
+}
+
+
+
+
+
+
+.card{
+transition:all 0.3s ;
+}
+.card:hover{
+transform: scale(1.05);
+background-color: aliceblue;
+cursor: pointer;
+}
+
+.card img{
+overflow: hidden;
+}
+
+.card img{
+transition: all 1.3s ease;
+}
+.card img:hover {
+transform: scale(1.0);
 }
 /* ------------------------------------------------------------------------ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 .wrapper {
     padding: 50px 50px 70px 30px;
@@ -35,6 +64,7 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 .left-side .upper-heading p {
@@ -53,6 +83,7 @@
     font-size: 36px;
     font-weight: 800;
     color: #fff;
+    padding-right: 180px;    
 }
 
 /* .wrapper-btn{
@@ -109,12 +140,12 @@ p.desc{
   transition: 0.5s;
 }
 
-.right-side .img-box .first{height: 270px;}
-.right-side .img-box .second{height: 220px;}
-.right-side .img-box .third{height: 320px;}
-.right-side .img-box .fourth{height: 220px;}
-.right-side .img-box .fiveth{height: 220px;}
-.right-side .img-box .sixth{height: 270px;}
+.right-side .img-box .first{height: 230px;}
+.right-side .img-box .second{height: 180px;}
+.right-side .img-box .third{height: 280px;}
+.right-side .img-box .fourth{height: 180px;}
+.right-side .img-box .fiveth{height: 180px;}
+.right-side .img-box .sixth{height: 230px;}
 
 .content-wrap {
     display: flex;
@@ -140,9 +171,19 @@ img {
     height: 100%;
 } */
 
+@media screen and (max-width: 1025px) {
+    .left-side .heading {
+        padding-right: 60px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .content-wrap{
         padding-bottom: 50px;
+    }
+
+    .left-side .heading {
+        padding: 20px 0;
     }
 }
 
@@ -178,4 +219,3 @@ img {
         padding: 50px 6px;
     }
 }
-
