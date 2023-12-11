@@ -10,247 +10,182 @@ function Card(props) {
 
   return (
     <div>
-      
 
-      <div className="flex-row mx-4 mt-5">
+
+      {/* <div className=''>
         <div className="px-2 d-flex items justify-content-center ">
 
           <div className="text-2xl mx-2 bord" >
-          <FaArrowTrendUp className="mx-1" />
+            <FaArrowTrendUp className="mx-1" />
             <strong >Career Transitions</strong>
           </div>
-
           <div className="text-2xl mx-2 bord" >
-          <FaRegStar className="mx-1" />
+            <FaRegStar className="mx-1" />
             <strong>Success Stories</strong>
           </div>
 
           <div className="text-2xl mx-2 bord" >
-          <BsFillHandbagFill  />
+            <BsFillHandbagFill />
             <strong> Recruiter Testimonials</strong>
           </div>
 
         </div>
-      </div>
-
-
-
-      <div className='container-fluid container-md'>
-        <div className='row py-4 pt-0 mt-lg-5 position-relative overflow-hidden'>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
+      </div> */}
+      <section className="team-sec">
+      <div className="px-2 d-flex items justify-content-center dark">
+          <div className="text-2xl mx-2 hov" >
+            <FaArrowTrendUp className="mx-1" />
+            <strong >Career Transitions</strong>
           </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center card ho'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50 hoverable' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
-          </div>
-          <div data-aos='fade-up' className='col-sm-5 col-lg-3 d-flex col-12 gy-4 trailblazer team-box position-relative aos-init aos-animate'>
-            <div className='card py-4 team-card text-center border-0 shadow justify-content-center align-items-center'>
-              <img className=' rounded-circle mw-100 w-50' src='../image/blazers-2.webp' alt='Card image cap' />
-              <div className='d-flex flex-column  mt-2 tag'>
-                <span className='card-title'>Harsh Bhatnagar</span>
-                <p className='card-text text-muted mx-1'>Cloud Computing<br />Vice President</p>
-                <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
-                <  FaAngleDoubleDown style={{ color: "green" }} />
-                <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
-                <p className='card-text text-muted'>Walls Forgo</p>
-              </div>
-            </div>
+          <div className="text-2xl mx-2 hov" >
+            <FaRegStar className="mx-1" />
+            <strong>Success Stories</strong>
           </div>
 
-
-
+          <div className="text-2xl mx-2 hov" >
+            <BsFillHandbagFill />
+            <strong> Recruiter Testimonials</strong>
+          </div>
 
         </div>
-      </div>
+        <div className="container team-container">
+          <article className="team text-center">
+            <span className=""><img src="../image/blazers-2.webp" alt="" className="mb-2 team-img" /></span>
+            <h5 className="bold mb-3">Harsh Bhatnagar</h5>
+            <p className='card-text text-light mx-1'>Cloud Computin<br />Vice President</p>
+            <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
+            <  FaAngleDoubleDown style={{ color: "white" }} />
+
+            <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
+
+
+
+            <div className="team-social-links">
+              <a href=""><i className="uil uil-instagram"></i></a>
+              <a href="#"><i className="uil uil-twitter-alt"></i></a>
+              <a href="#"><i className="uil uil-linkedin-alt"></i></a>
+            </div>
+          </article>
+
+          <article className="team text-center">
+            <span className="mb-3"><img src="../image/blazers-2.webp" alt="" className="mb-2 team-img" /></span>
+            <h5 className="bold mb-3">Harsh Bhatnagar</h5>
+            <p className='card-text text-light mx-1'>Cloud Computing<br />Vice President</p>
+            <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
+            <  FaAngleDoubleDown style={{ color: "white" }} />
+
+            <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
+
+
+            <div className="team-social-links">
+              <a href=""><i className="uil uil-instagram"></i></a>
+              <a href="#"><i className="uil uil-twitter-alt"></i></a>
+              <a href="#"><i className="uil uil-linkedin-alt"></i></a>
+            </div>
+          </article>
+
+          <article className="team text-center">
+            <span className="mb-3"><img src="../image/blazers-2.webp" alt="" className="mb-2 team-img" /></span>
+            <h5 className="bold mb-3">Harsh Bhatnagar</h5>
+            <p className='card-text text-light mx-1'>Cloud Computing<br />Vice President</p>
+            <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
+            <  FaAngleDoubleDown style={{ color: "white" }} />
+            <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
+
+
+            <div className="team-social-links">
+              <a href=""><i className="uil uil-instagram"></i></a>
+              <a href="#"><i className="uil uil-twitter-alt"></i></a>
+              <a href="#"><i className="uil uil-linkedin-alt"></i></a>
+            </div>
+          </article>
+
+          <article className="team text-center">
+            <span className="mb-3"><img src="../image/blazers-2.webp" alt="" className="mb-2 team-img" /></span>
+            <h5 className="bold mb-3">Harsh Bhatnagar</h5>
+            <p className='card-text text-light mx-1'>Cloud Computing<br />Vice President</p>
+            <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
+            <  FaAngleDoubleDown style={{ color: "white" }} />
+            <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
+
+            <div className="team-social-links">
+              <a href=""><i className="uil uil-instagram"></i></a>
+              <a href="#"><i className="uil uil-twitter-alt"></i></a>
+              <a href="#"><i className="uil uil-linkedin-alt"></i></a>
+            </div>
+          </article>
+
+          <article className="team text-center">
+            <span className="mb-3"><img src="../image/blazers-2.webp" alt="" className="mb-2 team-img" /></span>
+            <h5 className="bold mb-3">Harsh Bhatnagar</h5>
+            <p className='card-text text-light mx-1'>Cloud Computing<br />Vice President</p>
+            <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
+            <  FaAngleDoubleDown style={{ color: "white" }} />
+            <p className='mx-md-2 mx-4 '><strong>Vice President-Engineering Manager</strong></p>
+
+
+            <div className="team-social-links">
+              <a href=""><i className="uil uil-instagram"></i></a>
+              <a href="#"><i className="uil uil-twitter-alt"></i></a>
+              <a href="#"><i className="uil uil-linkedin-alt"></i></a>
+            </div>
+          </article>
+
+          <article className="team text-center">
+            <span className="mb-3"><img src="../image/blazers-2.webp" alt="" className="mb-2 team-img" /></span>
+            <h5 className="bold mb-3">Harsh Bhatnagar</h5>
+            <p className='card-text text-light mx-1'>Cloud Computing<br />Vice President</p>
+            <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
+            <  FaAngleDoubleDown style={{ color: "white" }} />
+            <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
+
+
+            <div className="team-social-links">
+              <a href=""><i className="uil uil-instagram"></i></a>
+              <a href="#"><i className="uil uil-twitter-alt"></i></a>
+              <a href="#"><i className="uil uil-linkedin-alt"></i></a>
+            </div>
+          </article>
+
+          <article className="team text-center">
+            <span className="mb-3"><img src="../image/blazers-2.webp" alt="" className="mb-2 team-img" /></span>
+            <h5 className="bold mb-3">Harsh Bhatnagar</h5>
+            <p className='card-text text-light mx-1'>Cloud Computing<br />Vice President</p>
+            <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
+            <  FaAngleDoubleDown style={{ color: "white" }} />
+            <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
+
+
+            <div className="team-social-links">
+              <a href=""><i className="uil uil-instagram"></i></a>
+              <a href="#"><i className="uil uil-twitter-alt"></i></a>
+              <a href="#"><i className="uil uil-linkedin-alt"></i></a>
+            </div>
+          </article>
+
+          <article className="team text-center">
+            <span className="mb-3"><img src="../image/blazers-2.webp" alt="" class="mb-2 team-img" />
+            </span>
+            <h5 className="bold mb-3">Harsh Bhatnagar</h5>
+            <p className='card-text text-light mx-1'>Cloud Computing<br />Vice President</p>
+            <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
+            <  FaAngleDoubleDown style={{ color: "white" }} />
+            <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
+
+
+            <div className="team-social-links">
+              <a href=""><i className="uil uil-instagram"></i></a>
+              <a href="#"><i className="uil uil-twitter-alt"></i></a>
+              <a href="#"><i className="uil uil-linkedin-alt"></i></a>
+            </div>
+
+          </article>
+
+        </div>
+      </section>
+
+
+
     </div>
 
   );
