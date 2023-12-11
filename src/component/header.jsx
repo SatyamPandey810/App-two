@@ -6,50 +6,50 @@ const Header = () => {
 
     return (
         <div>
-            <section class="wrapper">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-7 col-md-12 left-side">
-                            <div class="content-wrap">
-                                <div class="content-inner">
-                                    <div class="upper-heading">
+            <section className="wrapper">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-lg-7 col-md-12 left-side">
+                            <div className="content-wrap">
+                                <div className="content-inner">
+                                    <div className="upper-heading">
                                         <p>3100+ Hiring Companies</p>
                                         <p>50% Avg Salary Hike</p>
                                     </div>
-                                    <h3 class="heading">
-                                        <span class="auto-type">
+                                    <h3 className="heading">
+                                        <span className="auto-type">
                                             Inspring stories of success from our learners
                                         </span>
                                     </h3>
                                 </div>
-                                <div class="btn-wrap">
-                                    <div class="wrapper-btn">
+                                <div className="btn-wrap">
+                                    <div className="wrapper-btn">
                                         <button>explore career transition</button>
                                         <button>view testimonial</button>
                                     </div>
-                                    <p class="desc">Trusted by 9.2 Million+ learners from over 170 countries</p>
+                                    <p className="desc">Trusted by 9.2 Million+ learners from over 170 countries</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-12 right-side">
-                            <div class="img-box">
-                                <div class="img-part first">
+                        <div className="col-lg-5 col-md-12 right-side">
+                            <div className="img-box">
+                                <div className="img-part first">
                                     <img src="../image/blazers-2.webp" alt="" />
                                 </div>
-                                <div class="img-part second">
+                                <div className="img-part second">
                                     <img src="../image/blazers-2.webp" alt="" />
 
                                 </div>
-                                <div class="img-part third">
+                                <div className="img-part third">
                                     <img src="../image/blazers-2.webp" alt="" />
                                 </div>
-                                <div class="img-part fourth">
+                                <div className="img-part fourth">
                                     <img src="../image/blazers-2.webp" alt="" />
                                 </div>
-                                <div class="img-part fiveth">
+                                <div className="img-part fiveth">
                                     <img src="../image/blazers-2.webp" alt="" />
                                 </div>
-                                <div class="img-part sixth">
+                                <div className="img-part sixth">
                                     <img src="../image/blazers-2.webp" alt="" />
                                 </div>
                             </div>

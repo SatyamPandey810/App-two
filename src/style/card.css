@@ -3,41 +3,6 @@
 .tag {
     align-items: center !important;
 }
-
-.bord:hover{
-border-bottom: 2px blue solid;
-cursor: pointer;
-
-}
-
-.card{
-transition:all 0.3s ;
-}
-.card:hover{
-transform: scale(1.05);
-background-color: aliceblue;
-cursor: pointer;
-}
-
-.card img{
-overflow: hidden;
-}
-
-.card img{
-transition: all 1.3s ease;
-}
-.card img:hover {
-transform: scale(1.0);
-} */
-/* ------------------------------------------------------------------------ */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Nunito Sans', sans-serif;
-}
-
 .wrapper {
     padding: 50px 50px 70px 30px;
     background-color: black;
