@@ -210,7 +210,7 @@ img {
 
 
 .dark{
-    padding-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
 .hov:hover{
@@ -471,10 +471,10 @@ article {
         margin-left: 1.7rem;
 
     }
-    .dark{
+    /* .dark{
     margin-bottom: 1rem;
     font-size: 8px;
-    }
+    } */
      .team{
     font-size: 11px;
     width: 8rem;
