@@ -32,7 +32,7 @@ function Card(props) {
         </div>
       </div> */}
       <section className="team-sec">
-      <div className="px-2 d-flex items justify-content-center dark">
+        <div className="px-2 d-flex items justify-content-center dark">
           <div className="text-2xl mx-2 hov" >
             <FaArrowTrendUp className="mx-1" />
             <strong >Career Transitions</strong>
@@ -52,8 +52,8 @@ function Card(props) {
           <article className="team text-center">
             <span className=""><img src="../image/blazers-2.webp" alt="" className="mb-2 team-img" /></span>
             <h5 className="bold mb-3">Harsh Bhatnagar</h5>
-            <p className='card-text text-light mx-1'>Cloud Computin<br />Vice President</p>
-            <p className='card-text mx-0 '><strong>Barclays Capital </strong></p>
+            <p className='card-text text-light mx-1'>Cloud Computin<br />Voice President</p>
+            <p className='card-text'><strong>Barclays Capital </strong></p>
             <  FaAngleDoubleDown style={{ color: "white" }} />
 
             <p className='mx-md-2 mx-4'><strong>Vice President-Engineering Manager</strong></p>
